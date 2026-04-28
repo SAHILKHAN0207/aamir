@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adv. Aamir khan</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- External CSS file link -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar">
+    <div class="nav-logo">⚖️ BCR 2026</div>
+    <ul class="nav-links">
+      <li><a href="#home">होम</a></li>
+      <li><a href="#parichay">परिचय</a></li>
+      <li><a href="#sankalp">संकल्प</a></li>
+      <li><a href="#gallery">गैलरी</a></li>
+      <li><a href="#contact">संपर्क</a></li>
+    </ul>
+    <a href="#contact" class="btn-vote">वोट दें →</a>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- ===================== TICKER ===================== -->
+  <div class="ticker-wrap">
+    <div class="ticker-text">
+      ⚖️ Bar Council Election 2026 — सदस्य पद &nbsp;&nbsp;&nbsp;
+      ⚖️ Bar Council Election 2026 — सदस्य पद &nbsp;&nbsp;&nbsp;
+      ⚖️ Bar Council Election 2026 — सदस्य पद &nbsp;&nbsp;&nbsp;
+    </div>
+  </div>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>समस्त आदरणीय अधिवक्ता साथियों से विनम्र निवेदन</h1>
+      <p>मैं बार काउंसिल ऑफ राजस्थान के आगामी चुनाव में सदस्य पद हेतु प्रत्याशी हूँ। आपसे निवेदन है कि मुझे अपना बहुमूल्य वोट देकर सहयोग करें।</p>
+      <h2 class="hero-name">AAMIR KHAN</h2>
+      <p class="hero-sub">अधिवक्ता, राजस्थान उच्च न्यायालय</p>
+      <p class="hero-phone">📞 xxxxxxxxxx </p>
+      <div class="ballot-badge">BALLOT NO.xx</div>
+      <div class="hero-btns">
+        <a href="#voter" class="btn-primary">🔍 अपना नाम मतदाता सूची में खोजें</a>
+        <a href="#contact" class="btn-secondary">📞 संपर्क करें</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <!--
+        ======================================================
+        PHOTO YAHAN LAGAEN — MAIN BANNER
+        src mein apni photo ka path likhein
+        Example: src="images/main-banner.jpg"
+        ======================================================
+      -->
+      <!-- <img
+        src="https://advrajendrakumaragrawal.com/_next/static/media/mainBanner2.0q8~m59mztm42.jpeg"
+        alt="Election Banner — Adv. Aamir khan"
+      /> -->
+    </div>
+  </section>
+
+  <!-- ===================== VOTER SEARCH ===================== -->
+  <section class="voter-section" id="voter">
+    <h2>🔍 मतदाता खोजें</h2>
+    <div class="search-box">
+      <input type="text" id="voterSearch" placeholder="अपना नाम यहाँ खोजें..." />
+      <button onclick="searchVoter()">Search</button>
+    </div>
+    <p id="searchResult" class="search-result"></p>
+  </section>
+
+  <!-- ===================== SANGHARSH / GALLERY INTRO ===================== -->
+  <section class="sangharsh" id="sangharsh">
+    <h2>जनहित में संघर्ष</h2>
+    <p>अधिवक्ताओं के अधिकारों के लिए प्रतिबद्ध — हर मंच पर, हर मोड़ पर</p>
+
+    <div class="sangharsh-grid">
+
+      <!--
+        ======================================================
+        PHOTO 1 — SANGHARSH GALLERY IMAGE 1
+        src mein apni photo ka path likhein
+        Example: src="images/gallery1.jpg"
+        ======================================================
+      -->
+      <!-- <img
+        src="https://advrajendrakumaragrawal.com/_next/static/media/newGallery1.01tm0l90fc2y_.jpeg"
+        alt="Gallery Image 1"
+      /> -->
+
+      <!--
+        ======================================================
+        PHOTO 2 — SANGHARSH GALLERY IMAGE 2
+        ======================================================
+      -->
+      <!-- <img
+        src="https://advrajendrakumaragrawal.com/_next/static/media/newGallery12.0176_o8mo3xip.jpeg"
+        alt="Gallery Image 2" -->
+      />
+
+      <!--
+        ======================================================
+        PHOTO 3 — SANGHARSH GALLERY IMAGE 3
+        ======================================================
+      -->
+      <!-- <img
+        src="https://advrajendrakumaragrawal.com/_next/static/media/newGallery3.0kagba0z86gb5.jpeg"
+        alt="Gallery Image 3"
+      /> -->
+
+      <!--
+        ======================================================
+        PHOTO 4 — SANGHARSH GALLERY IMAGE 4
+        ======================================================
+      -->
+      <!-- <img
+        src="https://advrajendrakumaragrawal.com/_next/static/media/newGallery9.00beuzte.bbao.jpeg"
+        alt="Gallery Image 4"
+      /> -->
+    </div>
+
+    <blockquote class="quote">
+      "वो अदालत में भी लड़े, सड़क पर भी लड़े — यही असली अधिवक्ता होते हैं।"
+      <span>—Aamir khan</span>
+    </blockquote>
+  </section>
+
+  <!-- ===================== SANKALP / VISION ===================== -->
+  <section class="sankalp" id="sankalp">
+    <h2>हमारा संकल्प</h2>
+    <p class="section-sub">— Our Vision for Advocates</p>
+    <div class="sankalp-grid">
+      <div class="sankalp-card"><span>⚖️</span><h3>न्याय और समानता</h3><p>Ensuring equal opportunities and fair justice for every advocate.</p></div>
+      <div class="sankalp-card"><span>🛡️</span><h3>गरिमा और सम्मान</h3><p>Maintaining dignity and integrity within the legal community.</p></div>
+      <div class="sankalp-card"><span>📊</span><h3>पारदर्शी व्यवस्था</h3><p>Creating a transparent and accountable administrative system.</p></div>
+      <div class="sankalp-card"><span>🎓</span><h3>कानूनी शिक्षा</h3><p>Encouraging continuous learning through workshops and training.</p></div>
+      <div class="sankalp-card"><span>🤝</span><h3>एकता और सहयोग</h3><p>Promoting unity, collaboration, and strong professional bonds.</p></div>
+      <div class="sankalp-card"><span>🚀</span><h3>आधुनिक सुधार</h3><p>Using modern technology to strengthen the legal ecosystem.</p></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT / PARICHAY ===================== -->
+  <section class="parichay" id="parichay">
+    <div class="parichay-img">
+      <!--
+        ======================================================
+        PHOTO 5 — ABOUT US / PARICHAY IMAGE
+        src mein apni photo ka path likhein
+        Example: src="images/about.jpg"
+        ======================================================
+      -->
+      <!-- <img
+        src="https://advrajendrakumaragrawal.com/_next/static/media/aboutus.0fp5lsitj~l6_.jpeg"
+        alt="About Adv. Rajendra Kumar Agrawal" -->
+      />
+    </div>
+    <div class="parichay-content">
+      <p class="section-tag">परिचय</p>
+      <h2>Aamir khan</h2>
+      <ul>
+        <li>✓ Advocate at Rajasthan High Court, Jaipur</li>
+        <li>✓ Candidate for Member, Bar Council of Rajasthan 2026</li>
+        <li>✓ Dedicated to upholding the dignity and traditions of the legal fraternity</li>
+        <li>✓ Actively working for the rights, welfare, and unity of advocates</li>
+        <li>✓ A strong and fearless voice on every issue concerning the Bar Council</li>
+        <li>✓ Committed to transparency, growth, and modernization of legal systems</li>
+        <li>✓ Standing firmly with advocates — in court and beyond</li>
+      </ul>
+      <blockquote>
+        "अधिवक्ताओं को चेन से नहीं बाँधा जा सकता। अपनी आवाज़ उठाना हमारा हक भी है, कर्तव्य भी है।"
+        <span>— Aamir khan</span>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===================== INSTAGRAM / CAROUSEL ===================== -->
+  <section class="insta-section" id="gallery">
+    <div class="insta-header">
+      <!--
+        ======================================================
+        PHOTO 6 — INSTAGRAM PROFILE PHOTO (DP)
+        src mein apna profile photo ka path likhein
+        Example: src="images/instaDp.jpg"
+        ======================================================
+      -->
+      <!-- <img
+        src="https://advrajendrakumaragrawal.com/_next/static/media/instaDp.08t_qu6tz_w~8.jpeg"
+        alt="Instagram DP"
+        class="insta-dp" -->
+      />
+      <div>
+        <strong>Aamir khan</strong>
+        <p>216 posts · 32K followers · 2771 following</p>
+        <a href="https://www.instagram.com/amirkhanactor_/" target="_blank" class="btn-follow">Follow</a>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="carousel">
+      <button class="carousel-btn" id="prevBtn" onclick="changeSlide(-1)">◀</button>
+      <div class="carousel-track" id="carouselTrack">
+
+        <!--
+          ======================================================
+          PHOTO 7 — CAROUSEL IMAGE 1
+          src mein apni photo ka path likhein
+          Example: src="images/carousel1.jpg"
+          ======================================================
+        -->
+        <!-- <img src="https://advrajendrakumaragrawal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcarousel1.13jlwccwgyjno.jpeg&w=3840&q=75" alt="Carousel 1" class="carousel-slide" /> -->
+
+        <!--
+          ======================================================
+          PHOTO 8 — CAROUSEL IMAGE 2
+          ======================================================
+        -->
+        <!-- <img src="https://advrajendrakumaragrawal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcarousel2.12rvs8mz6ebmz.jpeg&w=3840&q=75" alt="Carousel 2" class="carousel-slide" /> -->
+
+        <!--
+          ======================================================
+          PHOTO 9 — CAROUSEL IMAGE 3
+          ======================================================
+        -->
+        <!-- <img src="https://advrajendrakumaragrawal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcarousel3.0xhy.e7u_~zo2.jpeg&w=3840&q=75" alt="Carousel 3" class="carousel-slide" /> -->
+
+        <!--
+          ======================================================
+          PHOTO 10 — CAROUSEL IMAGE 4
+          ======================================================
+        -->
+        <!-- <img src="https://advrajendrakumaragrawal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcarousel4.0u0_3anpvxlqz.jpeg&w=3840&q=75" alt="Carousel 4" class="carousel-slide" /> -->
+
+        <!--
+          ======================================================
+          PHOTO 11 — CAROUSEL IMAGE 5
+          ======================================================
+        -->
+        <!-- <img src="https://advrajendrakumaragrawal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcarousel5.0ps5mubfe~qnx.jpeg&w=3840&q=75" alt="Carousel 5" class="carousel-slide" /> -->
+
+      </div>
+      <button class="carousel-btn" id="nextBtn" onclick="changeSlide(1)">▶</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact" id="contact">
+    <h2>संपर्क करें</h2>
+    <p class="section-sub">— Get in Touch</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span>📍</span>
+        <h3>पता / Address</h3>
+        <p>C 79 Hari Marg <br/>Malvia Nagar<br/>Jaipur, Rajasthan</p>
+      </div>
+      <div class="contact-card">
+        <span>📞</span>
+        <h3>फोन / Phone</h3>
+        <p>xxxxxxxxxx<br/></p>
+      </div>
+      <div class="contact-card">
+        <span>🗳️</span>
+        <h3>चुनाव / Election</h3>
+        <p>Bar Council of Rajasthan<br/>Member Election 2026<br/>Vote: Adv. Aamir khan</p>
+      </div>
+    </div>
+    <p class="vote-cta">🗳️ आपका एक वोट, न्याय की नई दिशा!</p>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <p><strong>Adv. Aamir khan</strong> — Bar Council of Rajasthan Member 2026</p>
+    <div class="footer-links">
+      <a href="#home">होम</a>
+      <a href="#parichay">परिचय</a>
+      <a href="#sankalp">संकल्प</a>
+      <a href="#gallery">गैलरी</a>
+      <a href="#contact">संपर्क</a>
+    </div>
+    <p class="footer-copy">© 2026 Adv. Aamir khan | BCR 2026. सर्वाधिकार सुरक्षित।</p>
+  </footer>
+
+  <!-- External JS file link -->
+  <script src="script.js"></script>
+</body>
+</html>
