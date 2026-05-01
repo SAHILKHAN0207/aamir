@@ -1,6 +1,4 @@
-/* =====================================================
-   script.js — Adv. Rajendra Kumar Agrawal Website
-   ===================================================== */
+
 
 // =====================================================
 // 1. HAMBURGER MENU (Mobile Nav Toggle)
@@ -22,8 +20,6 @@ navLinks.querySelectorAll('a').forEach(link => {
 
 // =====================================================
 // 2. VOTER SEARCH FUNCTION
-// Yahan apni voter list add kar sakte hain
-// =====================================================
 function searchVoter() {
   const query = document.getElementById('voterSearch').value.trim().toLowerCase();
   const result = document.getElementById('searchResult');
@@ -34,8 +30,6 @@ function searchVoter() {
     return;
   }
 
-  // ---- Dummy voter list (aap yahan apni real list add karo) ----
-  // Format: { name: 'नाम', id: 'वोटर आईडी', district: 'जिला' }
   const voterList = [
     { name: 'राजेन्द्र कुमार', id: 'RJ001', district: 'जयपुर' },
     { name: 'सुरेश शर्मा',     id: 'RJ002', district: 'जोधपुर' },
@@ -57,7 +51,7 @@ function searchVoter() {
   }
 }
 
-// Enter key se bhi search ho sake
+// search by enter key
 document.getElementById('voterSearch').addEventListener('keydown', (e) => {
   if (e.key === 'Enter') searchVoter();
 });
@@ -72,7 +66,7 @@ const slides = track ? track.querySelectorAll('.carousel-slide') : [];
 const totalSlides = slides.length;
 const dotsContainer = document.getElementById('carouselDots');
 
-// Dots banao (ek dot per slide)
+// dot container
 if (dotsContainer && totalSlides > 0) {
   slides.forEach((_, i) => {
     const dot = document.createElement('button');
@@ -139,7 +133,7 @@ window.addEventListener('scroll', () => {
 
 // =====================================================
 // 5. SCROLL REVEAL ANIMATION
-// Cards aur sections appear hoti hain scroll par
+// Cards and sections appear  on scroll
 // =====================================================
 const revealElements = document.querySelectorAll(
   '.sankalp-card, .contact-card, .sangharsh-grid img, .parichay'

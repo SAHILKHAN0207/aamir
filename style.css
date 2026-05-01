@@ -1,6 +1,4 @@
-/* =====================================================
-   style.css — Adv. Rajendra Kumar Agrawal Website
-   ===================================================== */
+
 
 /* ---- CSS Variables (Colors & Fonts) ---- */
 :root {
@@ -238,9 +236,8 @@ h1, h2, h3 {
 .hero-image img {
   /*
     ==============================================
-    YAHAN MAIN BANNER PHOTO HAI
-    Apni photo replace karne ke liye index.html mein
-    hero section ki img tag ka src badlein
+    this is a MAIN BANNER PHOTO 
+   
     ==============================================
   */
   width: 100%;
@@ -340,9 +337,9 @@ h1, h2, h3 {
 .sangharsh-grid img {
   /*
     ==============================================
-    YAHAN GALLERY PHOTOS HAIN (4 photos)
-    index.html mein sangharsh section ki
-    har img tag ka src badlein
+    GALLERY PHOTOS  (4 photos)
+    index.html  sangharsh section
+    
     ==============================================
   */
   width: 100%;
@@ -459,8 +456,7 @@ h1, h2, h3 {
   /*
     ==============================================
     YAHAN PARICHAY / ABOUT US PHOTO HAI
-    index.html mein parichay section ki
-    img tag ka src badlein
+
     ==============================================
   */
   width: 100%;
@@ -544,9 +540,8 @@ h1, h2, h3 {
 .insta-dp {
   /*
     ==============================================
-    YAHAN INSTAGRAM DP / PROFILE PHOTO HAI
-    index.html mein insta-section ki
-    img.insta-dp tag ka src badlein
+     INSTAGRAM DP / 
+    
     ==============================================
   */
   width: 80px;
@@ -596,9 +591,8 @@ h1, h2, h3 {
 .carousel-track {
   /*
     ==============================================
-    YAHAN CAROUSEL KI PHOTOS HAIN (5 photos)
-    index.html mein carousel section ki
-    har img.carousel-slide tag ka src badlein
+    YAHAN CAROUSEL PHOTOS (5 photos)
+  n
     ==============================================
   */
   display: flex;
