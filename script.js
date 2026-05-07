@@ -1,8 +1,6 @@
 
 
-// =====================================================
 // 1. HAMBURGER MENU (Mobile Nav Toggle)
-// =====================================================
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.querySelector('.nav-links');
 
@@ -18,7 +16,6 @@ navLinks.querySelectorAll('a').forEach(link => {
 });
 
 
-// =====================================================
 // 2. VOTER SEARCH FUNCTION
 function searchVoter() {
   const query = document.getElementById('voterSearch').value.trim().toLowerCase();
@@ -57,9 +54,7 @@ document.getElementById('voterSearch').addEventListener('keydown', (e) => {
 });
 
 
-// =====================================================
 // 3. CAROUSEL SLIDER
-// =====================================================
 let currentSlide = 0;
 const track = document.getElementById('carouselTrack');
 const slides = track ? track.querySelectorAll('.carousel-slide') : [];
@@ -105,10 +100,8 @@ if (totalSlides > 0) {
 }
 
 
-// =====================================================
 // 4. SMOOTH SCROLL (already handled by CSS scroll-behavior)
 // Extra: Navbar link active state on scroll
-// =====================================================
 const sections = document.querySelectorAll('section[id]');
 const allNavLinks = document.querySelectorAll('.nav-links a');
 
@@ -125,16 +118,14 @@ window.addEventListener('scroll', () => {
   allNavLinks.forEach(link => {
     link.style.color = '';
     if (link.getAttribute('href') === `#${current}`) {
-      link.style.color = '#c9972b'; // gold color highlight on active link
+      link.style.color = '#c9972b'; 
     }
   });
 });
 
 
-// =====================================================
 // 5. SCROLL REVEAL ANIMATION
 // Cards and sections appear  on scroll
-// =====================================================
 const revealElements = document.querySelectorAll(
   '.sankalp-card, .contact-card, .sangharsh-grid img, .parichay'
 );
